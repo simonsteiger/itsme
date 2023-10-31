@@ -21,13 +21,16 @@ website:
     - icon: github
       href: https://www.github.com/simonsteiger/itsme
     right:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Blog
+        href: blog/index.qmd
 
 format:
   html:
-    theme: [cosmo, assets/infaustus.scss]
+    theme: [cosmo, assets/global/index.scss]
     toc: true
     highlight-style: a11y
     code-link: true

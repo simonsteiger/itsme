@@ -1,0 +1,16 @@
+---
+title: "Blog landing page"
+description: |
+    This is a preliminary landing page. Hopefully there will be some content here soon!
+listing:
+    contents:
+        - "index.qmd"
+title-block-banner: false
+
+header-includes: >
+    <link rel="stylesheet" href="../assets/spec/listing.scss">
+resources:
+    - ../assets/spec/listing.scss
+---
+
+# Hello?
