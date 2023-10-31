@@ -1,0 +1,24 @@
+
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
+@import url(https://fonts.googleapis.com/css?family=Mukta);
+
+// Custom colors
+$primary: #291E14;
+$secondary: #DE7532;
+$secondary-light: #EBEBD1;
+
+$body-bg: $secondary-light;
+$body-color: $primary;
+
+// Navbar icons
+$navbar-fg: $primary;
+$navbar-bg: $secondary-light;
+
+// Links
+$link-color: $secondary;
+$link-decoration: underline;
+$link-hover-color: darken($secondary, 15%);
+
+// Fonts
+$font-family-sans-serif: "Mukta";
+$headings-font-family: "Vollkorn";

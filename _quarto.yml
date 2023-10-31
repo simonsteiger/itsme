@@ -2,18 +2,38 @@ project:
   type: website
 
 website:
-  title: "Itsme"
+  title: "Simon Steiger"
+  # site-url: 
+  description: "R Shiny developer at Karolinska Universitetssjukhuset"
+  # favicon: 
+  page-navigation: true
+  back-to-top-navigation: true
+  # comments:
+  #   utterances:
+  #     repo: simonsteiger/itsme
+  #     label: utterances
+  #     theme: body-light
+  #     issue-term: title
+  
   navbar:
-    left:
+  # logo:
+    tools:
+    - icon: github
+      href: https://www.github.com/simonsteiger/itsme
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, assets/infaustus.scss]
     toc: true
+    highlight-style: a11y
+    code-link: true
+
+execute:
+  freeze: auto
 
 
 
