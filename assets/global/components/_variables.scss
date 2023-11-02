@@ -1,18 +1,18 @@
 
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
-@import url(https://fonts.googleapis.com/css?family=Mukta);
+@import url(https://fonts.googleapis.com/css?family=Commissioner);
 
 // Custom colors
 $primary: #291E14;
 $secondary: #DE7532;
 $secondary-light: #EBEBD1;
 
-$body-bg: $secondary-light;
-$body-color: $primary;
+$body-bg: white;
+$body-color: black;
 
 // Navbar icons
-$navbar-fg: $primary;
-$navbar-bg: $secondary-light;
+$navbar-fg: black;
+$navbar-bg: white;
 
 // Links
 $link-color: $secondary;
@@ -20,5 +20,5 @@ $link-decoration: underline;
 $link-hover-color: darken($secondary, 15%);
 
 // Fonts
-$font-family-sans-serif: "Mukta";
+$font-family-sans-serif: "Commissioner";
 $headings-font-family: "Vollkorn";

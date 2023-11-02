@@ -7,5 +7,8 @@
   },
   "blog/index.qmd": {
     "index.html": "1be88f55"
+  },
+  "blog/2023-11-02-kmeans/index.qmd": {
+    "index.html": "eab888ae"
   }
 }

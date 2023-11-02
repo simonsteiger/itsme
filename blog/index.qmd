@@ -4,7 +4,7 @@ description: |
     This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
     contents:
-        - "index.qmd"
+        - "**/index.qmd"
 title-block-banner: false
 
 header-includes: >
