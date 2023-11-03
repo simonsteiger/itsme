@@ -11,9 +11,9 @@ subtitle: >
 description: ''
 ---
 
-## In a nutshell 🥜
+# In a nutshell
 
-This is my attempt at coding K-means from scratch. I have used the pseudocode from [this handout](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html) on AI systems as a starting point but so far not looked into optimized solutions. I can already think of a few improvements which would affect efficiency though, so this version is certainly clunkier and slower than necessary. 🐢
+This is my attempt at coding $K$-means from scratch. I have used the pseudocode from [this handout](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html) on AI systems as a starting point but so far not looked into optimized solutions. I can already think of a few improvements which would affect efficiency though, so this version is certainly clunkier and slower than necessary. 🐢
 
 Let's begin by describing the goal of $K$-means mathematically.
 
@@ -25,9 +25,11 @@ In this equation, $\boldsymbol{\mu}_k$ is the center of the $k$-th cluster, and
 $z_i$ is an index of the cluster for $i$-th point $\mathbf{x}_i$.
 I have also seen $K$-means being described as a *coordinate-descent* algorithm, but I am not yet deep enough into the terminology to understand that well.
 
-## The core 🫀
+# Coding K-means
 
 I will start by laying out the general structure of the algorithm and then defining its components one by one.
+
+## Main function
 
 ```{julia}
 function kmeans(k, X; max_iter=1000, seed=42)
@@ -64,7 +66,7 @@ function kmeans(k, X; max_iter=1000, seed=42)
 end;
 ```
 
-## Crafting tools 🛠️
+## Helper functions
 
 Now that we've laid out the general logic we want the $K$-means algorithm to follow, we still need to craft a few tools to make it run.
 
@@ -200,7 +202,7 @@ standardise(x) = (x .- mean(x)) ./ std(x);
 
 So far so good! I think that's all we need.
 
-# Cooking time 🥘
+# Simulating clusters
 
 ... before we can take our freshly baked $K$-means algorithm out for a spin, we first need to cook up some data to play with. We will draw this data from a mixture of gaussians.
 
@@ -248,7 +250,7 @@ function generate_multivariate_data(n, κ, separation; seed=42)
 end;
 ```
 
-## Food's ready! 🍲
+## Inspecting the data
 
 ~~Play around with the sliders to set the sample size, number of clusters, and cluster separation.~~ Then we'll use this data to test our new $K$-means algorithm!
 
@@ -263,7 +265,7 @@ histogram2d(X[1, :], X[2, :], bins=50)
 > #### What does the input to _separation_ do?
 > If you pay attention to the axes, you'll realize that this parameter simply stretches out the space in which the gaussians are located, thus pulling them apart or moving them closer together.
 
-# Proving ground 🤺
+# Proving ground
 
 Time to try our new $K$-means algorithm!
 
@@ -273,7 +275,7 @@ We first need to standardise the input matrix.
 Z = standardise(X)
 ```
 
-## And action! 🎬
+## And action!
 
 We will fit five clusters to this data and set a seed.
 
@@ -295,7 +297,7 @@ To check the final centroids, we would do the following:
 fit.centroids
 ```
 
-## Tracking K-means 🐾
+## Tracking K-means
 
 Let's look at the steps the $K$-means algorithm takes to find its solution.
 

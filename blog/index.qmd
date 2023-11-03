@@ -5,6 +5,19 @@ description: |
 listing:
     contents:
         - "**/index.qmd"
+    sort: "date desc"
+    type: default
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, author, categories, date]
+    page-size: 5
+citation: false
+toc: false
+comments: false
+format:
+    html:
+        page-layout: full
 title-block-banner: false
 
 header-includes: >
@@ -12,5 +25,3 @@ header-includes: >
 resources:
     - ../assets/spec/listing.scss
 ---
-
-# Hello?
