@@ -1,0 +1,38 @@
+---
+title: "Simon Steiger"
+subtitle: "Renegade psychologist.<br>Mostly birdwatching otherwise."
+image: static/img/avatar.jpg
+about:
+    template: trestles
+    image-width: 14em
+    image-shape: rounded
+    id: hero-heading
+    links:
+        - icon: github
+          aria-label: "GitHub"
+          href: https://www.github.com/simonsteiger
+        - icon: linkedin
+          aria-label: "LinkedIn"
+          href: "https://www.linkedin.com/in/steigers/"
+listing:
+- id: blog
+  contents:
+    - "../blog/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, categories, date]
+  max-items: 1
+  image-height: "200"
+format:
+  html:
+    page-layout: full
+
+header-includes: >
+    <link rel="stylesheet" href="../assets/spec/about.scss"
+resources:
+    - ../assets/spec/about.scss
+---

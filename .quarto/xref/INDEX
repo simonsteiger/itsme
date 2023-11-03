@@ -10,5 +10,8 @@
   },
   "blog/2023-11-02-kmeans/index.qmd": {
     "index.html": "eab888ae"
+  },
+  "about/about.qmd": {
+    "about.html": "ec560dae"
   }
 }

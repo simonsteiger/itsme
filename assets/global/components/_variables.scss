@@ -5,7 +5,7 @@
 // Custom colors
 $primary: #291E14;
 $secondary: #DE7532;
-$secondary-light: #EBEBD1;
+$secondary-light: red;// #EBEBD1;
 
 $body-bg: white;
 $body-color: black;
@@ -17,7 +17,7 @@ $navbar-bg: white;
 // Links
 $link-color: $secondary;
 $link-decoration: underline;
-$link-hover-color: darken($secondary, 15%);
+$link-hover-color: #F9863E;
 
 // Fonts
 $font-family-sans-serif: "Commissioner";
