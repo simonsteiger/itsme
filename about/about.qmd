@@ -1,7 +1,7 @@
 ---
 title: "Simon Steiger"
 subtitle: "R Shiny @ Karolinska<br>Mostly birds otherwise"
-image: static/img/avatar.jpg
+image: static/avatar.png
 about:
     template: trestles
     image-width: 14em
@@ -32,10 +32,10 @@ format:
   html:
     page-layout: full
 
-header-includes: >
-    <link rel="stylesheet" href="../assets/components/_about.scss"
-resources:
-    - ../assets/components/_about.scss
+#header-includes: >
+#    <link rel="stylesheet" href="../assets/about.scss"
+#resources:
+#    - ../assets/about.scss
 ---
 
 ::: {#hero-heading}
