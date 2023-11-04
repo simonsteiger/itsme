@@ -1,0 +1,13 @@
+.card {
+    background-color: #F3F3E3 !important;
+    border: solid 1px #F3F3E3 !important;
+    border-radius: 4px;
+    /*box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);*/
+    &:hover {
+        border: solid 1px darken(#F3F3E3, 20%) !important;
+    }
+}
+  
+.card-img {
+    border-radius: 4px 4px 0px 0px;
+}

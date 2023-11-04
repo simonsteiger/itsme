@@ -21,7 +21,7 @@ format:
 title-block-banner: false
 
 header-includes: >
-    <link rel="stylesheet" href="../assets/spec/listing.scss">
+    <link rel="stylesheet" href="../assets/components/_listing.scss">
 resources:
-    - ../assets/spec/listing.scss
+    - ../assets/components/_listing.scss
 ---

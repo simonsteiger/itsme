@@ -1,6 +1,6 @@
 ---
 title: "Simon Steiger"
-subtitle: "Renegade psychologist.<br>Mostly birdwatching otherwise."
+subtitle: "R Shiny @ Karolinska<br>Mostly birds otherwise"
 image: static/img/avatar.jpg
 about:
     template: trestles
@@ -14,6 +14,7 @@ about:
         - icon: linkedin
           aria-label: "LinkedIn"
           href: "https://www.linkedin.com/in/steigers/"
+toc: false
 listing:
 - id: blog
   contents:
@@ -32,7 +33,75 @@ format:
     page-layout: full
 
 header-includes: >
-    <link rel="stylesheet" href="../assets/spec/about.scss"
+    <link rel="stylesheet" href="../assets/components/_about.scss"
 resources:
-    - ../assets/spec/about.scss
+    - ../assets/components/_about.scss
 ---
+
+::: {#hero-heading}
+# Hey, whoa, what the heck?
+
+What are you doing here?
+
+This website isn't even done, you must be lost. In the meantime, have you tried looking at Finnish Wikipedia articles about birds and having them translated by the Google Translated plugin? It's hilarious.
+
+Let me know if you've had a try and tell me about your favorite translation fail.
+:::
+
+## About me
+
+:::: {.grid}
+
+::: {.g-col-6 #about-me-1}
+
+Trying my best. Sometimes, most of the time, or not. Bla bla bla constructive conversation. Fresh original thinking about reviving the demons of the past.
+
+I enjoy using [Julia](https://www.julialang.org) to do stuff.
+
+<ul class="fa-ul">
+   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://ebird.org/profile/MTEyODY4NA/world">Birdwatching</a> ∙ Nothing else</li>
+</ul>
+
+:::
+
+::: {.g-col-6 #about-me-2}
+Now is not the time for a regional escalation. Sending signals to someone to dial up something but not dial up something else. Let's not increase the tensions across the border.
+
+<ul class="fa-ul">
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>M.Sc. in Cognitive Psychology ∙ University of Mannheim ∙ 2022</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.Sc. in Psychology ∙ University of Mannheim ∙ 2019</li>
+</ul>
+
+:::
+
+::::
+
+## Lately ...
+
+:::: {.grid}
+
+::: {.g-col-3}
+
+#### Blog
+
+::: {#blog}
+
+:::
+
+[See all &rarr;](../blog){.about-links .subtitle}
+
+:::
+
+::: {.g-col-3}
+
+#### Projects
+
+::: {#projects}
+
+:::
+
+[See all &rarr;](../index.qmd){.about-links .subtitle}
+
+:::
+
+::::
