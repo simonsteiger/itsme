@@ -13,5 +13,8 @@
   },
   "about/about.qmd": {
     "about.html": "ec560dae"
+  },
+  "about/index.qmd": {
+    "index.html": "678ed79c"
   }
 }

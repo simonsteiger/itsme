@@ -24,7 +24,7 @@ website:
       - text: Home
         href: index.qmd
       - text: About
-        href: about/about.qmd
+        href: about/index.qmd
       - text: Blog
         href: blog/index.qmd
 

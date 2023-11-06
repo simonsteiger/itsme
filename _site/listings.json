@@ -10,5 +10,11 @@
     "items": [
       "/blog/2023-11-02-kmeans/index.html"
     ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/blog/2023-11-02-kmeans/index.html"
+    ]
   }
 ]

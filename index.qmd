@@ -1,6 +1,26 @@
 ---
 title: "Simon Steiger"
+toc: false
 ---
+
+::: {.grid}
+
+::: {.g-col-6}
+## One
+Time to go to bed now.
+I think we should go now.
+:::
+
+::: {.g-col-6}
+## Two
+
+We've not been having pasta today.
+Instead it was curry, but that was great too.
+:::
+
+:::
+
+# No longer grid
 
 This is my Quarto website.
 

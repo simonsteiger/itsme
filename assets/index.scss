@@ -1,14 +1,10 @@
 /*-- scss:defaults --*/
 
-// Quarto references:
-// Variables: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-variables.scss
-// Rules: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss
-
 @import "components/variables";
-@import "components/card";
 
 /*-- scss:rules --*/
 
+@import "components/card";
 @import "components/about";
 
-///
+//

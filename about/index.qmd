@@ -5,7 +5,6 @@ image: static/avatar.png
 about:
     template: trestles
     image-width: 14em
-    image-shape: rounded
     id: hero-heading
     links:
         - icon: github
