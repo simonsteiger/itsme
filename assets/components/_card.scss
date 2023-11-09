@@ -1,10 +1,10 @@
 .card {
     background-color: $light-bg !important;
-    border: solid $border-width-sm darken($light-bg, 5%) !important;
+    border: solid $border-width-sm $light-bg-offset !important;
     border-radius: $border-radius-sm;
-    box-shadow: 0px 3px 10px #0000001c;
+    box-shadow: 0px 3px 10px $box-shadow-color;
     &:hover {
-        border: solid $border-width-sm darken($light-bg, 15%) !important;
+        border: solid $border-width-sm $light-bg-hover !important;
     }
 }
   

@@ -30,7 +30,9 @@ website:
 
 format:
   html:
-    theme: [cosmo, assets/index.scss]
+    theme: 
+      light: [cosmo, assets/light.scss]
+      dark: [cosmo, assets/dark.scss]
     toc: true
     highlight-style: a11y
     code-link: true

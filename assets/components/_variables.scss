@@ -2,18 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
 @import url(https://fonts.googleapis.com/css?family=Commissioner);
 
-// Custom colors
-$primary: #291E14;
-$secondary: #DE7532;
-$secondary-light: #F9863E;
-$light-bg: #F3F3E3;
-
-$body-bg: white;
-$body-color: black;
+$body-bg: $default-bg;
+$body-color: $default-fg;
 
 // Navbar
-$navbar-fg: black;
-$navbar-bg: white;
+$navbar-fg: $default-fg;
+$navbar-bg: $default-bg;
 
 // Links
 $link-color: $secondary;

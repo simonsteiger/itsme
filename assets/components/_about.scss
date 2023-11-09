@@ -29,8 +29,8 @@
   justify-content: center;
   margin: 0em 2em 0em 2em;
   border-radius: $border-radius-lg;
-  border: $border-width solid darken($light-bg, 5%);
-  box-shadow: 0px 3px 10px #0000001c;
+  border: $border-width solid $light-bg-offset;
+  box-shadow: 0px 3px 10px $box-shadow-color;
 
   .about-image {
     border-radius: $border-radius-lg !important;
@@ -58,18 +58,18 @@
   }
 
   .listing-category {
-    background-color: darken($light-bg, 15%) !important;
-    border: solid 1px darken($light-bg, 15%) !important;
+    background-color: $light-bg-offset !important;
+    border: solid 1.5px $light-bg-offset !important;
     &:hover {
-      background-color: darken($light-bg, 5%) !important;
+      border: solid 1.5px $light-bg-hover !important;
     }
   }
   
   .quarto-category {
-    background-color: darken($light-bg, 15%) !important;
-    border: solid 1px darken($light-bg, 15%) !important;
+    background-color: $light-bg-offset !important;
+    border: solid 1.5px $light-bg-offset !important;
     &:hover {
-      background-color: darken($light-bg, 5%) !important;
+      border: solid 1.5px $light-bg-hover !important;
     }
   }
   

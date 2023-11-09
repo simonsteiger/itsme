@@ -1,0 +1,12 @@
+// Custom colors: light theme
+$primary: #291E14;
+$secondary: #DE7532;
+$secondary-light: #F9863E;
+$light-bg: #F3F3E3;
+$default-bg: white;
+$default-fg: black;
+
+$light-bg-offset: darken($light-bg, 5%);
+$light-bg-hover: darken($light-bg, 15%);
+
+$box-shadow-color: #0000001c;
