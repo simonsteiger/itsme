@@ -1,6 +1,6 @@
 ---
 title: "Simon Steiger"
-subtitle: "R Shiny @ Karolinska<br>Mostly birds otherwise"
+subtitle: "R Shiny @ Karolinska<br>Mostly birds and Julia otherwise"
 image: static/avatar.png
 about:
     template: trestles
