@@ -3,25 +3,29 @@ title: "Simon Steiger"
 toc: false
 ---
 
-::: {.grid}
+```{shinylive-python}
+#| standalone: true
+#| layout: vertical
+#| viewerHeight: 600
 
-::: {.g-col-6}
-## One
-Time to go to bed now.
-I think we should go now.
-:::
+from shiny import App, render, ui
 
-::: {.g-col-6}
-## Two
+verbs = ["bakes", "watches", "writes"]
+subjects = ["birds", "bread", "code"]
 
-We've not been having pasta today.
-Instead it was curry, but that was great too.
-:::
+app_ui = ui.page_fluid(
+    ui.input_selectize("verb", "First the verb", verbs),
+    ui.input_selectize("subject", "Then the subject", subjects),
+    ui.output_ui("html"),
+)
 
-:::
 
-# No longer grid
+def server(input, output, session):
+    @output
+    @render.ui
+    def html():
+        return f"Simon {input.verb()} {input.subject()}."
 
-This is my Quarto website.
 
-To learn more about **Quarto** websites visit <https://quarto.org/docs/websites>.
+app = App(app_ui, server)
+```

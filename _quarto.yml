@@ -42,5 +42,6 @@ execute:
 
 jupyter: julia-1.9
 
-
+filters:
+ - shinylive
 

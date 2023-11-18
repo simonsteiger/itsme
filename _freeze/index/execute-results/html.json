@@ -1,0 +1,14 @@
+{
+  "hash": "349a6a6b0d4d5f79de2215e643bd735e",
+  "result": {
+    "markdown": "---\ntitle: \"Simon Steiger\"\ntoc: false\n---\n\n\n```{shinylive-r}\n#| standalone: true\n\nlibrary(shiny)\n\nui <- fluidPage(\n    sliderInput(\"n\", \"N\", 0, 100, 20),\n    textOutput(\"txt\"),\n)\n\n\nserver <- function(input, output, session) {\n    output$txt <- renderText(paste0(\"n * 2 is\", input$n))\n}\n\nshinyApp(ui, server)\n```\n\n\n::: {.cell standalone='true'}\n\n```{.r .cell-code}\n# from shiny import App, render, ui\n# \n# app_ui = ui.page_fluid(\n#     ui.input_slider(\"n\", \"N\", 0, 100, 20),\n#     ui.output_text_verbatim(\"txt\"),\n# )\n# \n# \n# def server(input, output, session):\n#     @output\n#     @render.text\n#     def txt():\n#         return f\"n*2 is {input.n() * 2}\"\n# \n# \n# app = App(app_ui, server)\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
