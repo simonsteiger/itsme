@@ -2,7 +2,7 @@
     background-color: $light-bg !important;
     border: solid $border-width-sm $light-bg-offset !important;
     border-radius: $border-radius-sm;
-    box-shadow: 0px 3px 10px $box-shadow-color;
+    box-shadow: $default-box-shadow;
     &:hover {
         border: solid $border-width-sm $light-bg-hover !important;
     }

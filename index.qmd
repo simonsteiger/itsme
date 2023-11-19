@@ -3,20 +3,35 @@ title: "Simon Steiger"
 toc: false
 ---
 
+::: {style="margin: 5rem;"}
 ```{shinylive-python}
 #| standalone: true
-#| layout: vertical
-#| viewerHeight: 600
+#| viewerHeight: 300
 
 from shiny import App, render, ui
+from htmltools import css
+
 
 verbs = ["bakes", "watches", "writes"]
 subjects = ["birds", "bread", "code"]
 
-app_ui = ui.page_fluid(
-    ui.input_selectize("verb", "First the verb", verbs),
-    ui.input_selectize("subject", "Then the subject", subjects),
-    ui.output_ui("html"),
+input_css = css(border="none", background_color="red")
+
+app_ui = ui.page_bootstrap(
+    {"style": "margin: 2rem;"},
+    ui.row(
+        ui.column(
+            12,
+            "Simon... ",
+            ui.input_selectize("verb", "", verbs),
+            ui.input_selectize("subject", "", subjects),
+            style=css(display="flex", align_items="baseline", justify_content="center", gap="10px")
+         ),
+         style=css(height="50%")
+    ),
+    ui.row(
+        ui.column(12, ui.output_ui("html"), style=css(text_align="center"))
+    )
 )
 
 
@@ -29,3 +44,4 @@ def server(input, output, session):
 
 app = App(app_ui, server)
 ```
+:::
