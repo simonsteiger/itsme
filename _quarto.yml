@@ -22,7 +22,7 @@ website:
       href: https://www.github.com/simonsteiger/itsme
     right:
       - text: Home
-        href: index.qmd
+        href: home/index.qmd
       - text: About
         href: about/index.qmd
       - text: Blog
