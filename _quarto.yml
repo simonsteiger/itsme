@@ -22,11 +22,20 @@ website:
       href: https://www.github.com/simonsteiger/itsme
     right:
       - text: Home
-        href: home/index.qmd
+        href: index.qmd
       - text: About
         href: about/index.qmd
       - text: Blog
         href: blog/index.qmd
+      - text: Projects
+        href: projects/index.qmd
+
+  page-footer:  
+      left: >-
+       &#169; 2023 Simon Steiger &#8729; Made with [Quarto](https://quarto.org) 
+      center: |
+       <a class="link-dark m-2" href="https://github.com/simonsteiger" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+       <a class="link-dark m-2" href="https://github.com/simonsteiger" title="github" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
 
 format:
   html:

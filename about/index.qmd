@@ -27,14 +27,21 @@ listing:
   fields: [title, categories, date]
   max-items: 1
   image-height: "200"
+- id: projects
+  contents:
+    - "../projects/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, categories, date]
+  max-items: 1
+  image-height: "200"
 format:
   html:
     page-layout: full
-
-#header-includes: >
-#    <link rel="stylesheet" href="../assets/about.scss"
-#resources:
-#    - ../assets/about.scss
 ---
 
 ::: {#hero-heading}
@@ -99,7 +106,7 @@ Now is not the time for a regional escalation. Sending signals to someone to dia
 
 :::
 
-[See all &rarr;](../index.qmd){.about-links .subtitle}
+[See all &rarr;](../projects){.about-links .subtitle}
 
 :::
 

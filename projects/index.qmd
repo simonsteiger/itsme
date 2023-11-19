@@ -1,0 +1,22 @@
+---
+title: "Projects"
+description: |
+  This porfolio includes larger projects I have worked on in my free time.
+listing: 
+  contents:
+    - "**/index.qmd"
+  type: grid
+  fields: [title, author, categories, date]
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+
+header-includes: >
+    <link rel="stylesheet" href="../assets/components/_listing.scss">
+resources:
+    - ../assets/components/_listing.scss
+---

@@ -29,11 +29,12 @@
   justify-content: center;
   margin: 0em 2em 0em 2em;
   border-radius: $border-radius-lg;
-  border: $border-width solid $light-bg-offset;
+  border: $default-border-wide;
   box-shadow: $default-box-shadow;
 
   .about-image {
     border-radius: $border-radius-lg !important;
+    border: $default-border-wide;
   }
 }
 

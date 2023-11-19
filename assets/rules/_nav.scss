@@ -1,0 +1,16 @@
+.nav-footer {
+    color: $text-muted !important;
+
+    a {
+        color: $default-fg;
+    
+        &:hover {
+            color: $link-hover-color;
+        }
+    }
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+

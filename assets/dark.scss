@@ -1,12 +1,14 @@
 /*-- scss:defaults --*/
 
-@import "components/colorsdark";
-@import "components/variables";
+@import "defaults/colorsdark";
+@import "defaults/variables";
 
 /*-- scss:rules --*/
 
-@import "components/card";
-@import "components/about";
-@import "components/shiny";
+@import "rules/mixins";
+@import "rules/nav";
+@import "rules/card";
+@import "rules/about";
+@import "rules/shiny";
 
-///
+//

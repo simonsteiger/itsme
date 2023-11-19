@@ -1,0 +1,15 @@
+.shinylive-wrapper {
+    @include container-rounded(0px);
+}
+
+.shinylive-container {
+    @include container-rounded(0px);
+}
+
+.shinylive-viewer {
+    @include container-rounded(0px);
+}
+
+.app-frame {
+    @include container-rounded($border-width);
+}

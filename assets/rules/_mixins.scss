@@ -1,0 +1,5 @@
+@mixin container-rounded($border-width) {
+    box-shadow: $default-box-shadow !important;
+    border: $border-width solid $light-bg-offset !important;
+    border-radius: $border-radius-lg !important;
+}

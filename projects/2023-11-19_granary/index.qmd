@@ -1,0 +1,12 @@
+---
+title: "Granary 🌾"
+author: Simon Steiger
+date: "2023-11-19"
+categories:
+    - R
+    - Shiny
+    - Baking
+subtitle: >
+    A Shiny app to store and recalculate bread recipes.
+description: ''
+---
