@@ -40,8 +40,8 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, assets/light.scss]
-      dark: [cosmo, assets/dark.scss]
+      light: [flatly, assets/light.scss]
+      dark: [darkly, assets/dark.scss]
     toc: true
     highlight-style: a11y
     code-link: true

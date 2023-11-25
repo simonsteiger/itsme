@@ -5,3 +5,4 @@ venv/**
 _site
 .quarto/
 _extensions/**
+/.quarto/

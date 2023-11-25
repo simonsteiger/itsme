@@ -60,7 +60,7 @@ Let me know if you've had a try and tell me about your favorite translation fail
 
 ::: {.g-col-6 #about-me-1}
 
-Trying my best. Sometimes, most of the time, or not. Bla bla bla constructive conversation. Fresh original thinking about reviving the demons of the past.
+Renegade psychologist turned epidemiologist. Mostly birds and Julia otherwise.
 
 I enjoy using [Julia](https://www.julialang.org) to do stuff.
 
