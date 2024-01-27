@@ -1,0 +1,12 @@
+---
+title: "A test 🤡"
+author: Simon Steiger
+date: "2023-12-03"
+categories:
+    - Void
+    - Niente
+    - Nada
+subtitle: >
+    Nothing, really.
+description: ''
+---

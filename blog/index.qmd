@@ -3,25 +3,25 @@ title: "Blog landing page"
 description: |
     This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
-    contents:
-        - "**/index.qmd"
-    sort: "date desc"
-    type: default
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    fields: [title, author, categories, date]
-    page-size: 5
+  contents:
+    - "**/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, author, categories, date]
+  page-size: 5
 citation: false
 toc: false
 comments: false
 format:
     html:
-        page-layout: full
+      page-layout: full
 title-block-banner: false
 
 header-includes: >
-    <link rel="stylesheet" href="../assets/components/_listing.scss">
+    <link rel="stylesheet" href="../assets/rules/_listing.scss">
 resources:
-    - ../assets/components/_listing.scss
+    - ../assets/rules/_listing.scss
 ---

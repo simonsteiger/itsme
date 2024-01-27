@@ -302,6 +302,7 @@ fit.centroids
 Let's look at the steps the $K$-means algorithm takes to find its solution.
 
 ```{julia}
+#| warning: false
 @gif for i in eachindex(fit.log_centroids)
 	scatter(Z[1, :], Z[2, :], c=fit.log_labels[i], markershape=:xcross, legend=:none)
 	scatter!(fit.log_centroids[i][1, :], fit.log_centroids[i][2, :], c=[1:k;])
